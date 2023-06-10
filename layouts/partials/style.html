@@ -1,0 +1,220 @@
+<style>
+/* header */
+
+
+.container {
+	max-width:900px;
+	margin:0 auto;
+	
+}
+
+#header {
+	overflow: hidden;
+}
+
+#header {
+padding-right: 0.4em;
+background-color: white;
+position: relative;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+display: flex;
+align-items: center;
+border-bottom: 1px solid #212529;
+margin-bottom:0;
+}
+
+#header * {
+   display: inline;
+
+}
+
+#header li {
+	list-style-type:none;
+    margin: 2vw 0;
+	font-size:3vh;
+}
+
+#header li a {
+    color: #8ef2ff;
+    text-decoration: none;
+	font-family:monospace;
+	padding:2vw;
+
+}
+
+#header nav {
+	width: 100vw;
+	background-color: #161819;
+}
+
+#header nav ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+}
+
+#header nav ul  a:visited {
+	color: #8ef2ff;
+}
+
+#header nav ul a:hover {
+	text-decoration: underline;
+	text-decoration-color: #e36e40;
+	text-decoration-thickness: 0.25em;
+	color: #ffffff;
+
+}
+
+#header li:last-child {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 0;
+}
+
+/* Heading */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.2rem;
+  margin-top: 2em;
+}
+
+
+/* Tags*/
+.tag  {
+	list-style-type: none;
+	
+}
+
+.tag a {
+	text-decoration: none;
+	color:  #161819;
+	
+	
+}
+
+.tags  {
+	font-family: monospace;
+	display: flex;	
+	margin:0;
+	padding: 0;
+	overflow: hidden;	
+	font-family: monospace;
+	
+	
+}
+
+.tags li {
+
+margin: 30px;
+}
+
+/* Items lists */
+
+
+.items {
+	font-family: monospace;
+	display:flex;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display:inherit;
+}
+
+.item li {
+	list-style-type: none;
+	margin:10px;
+	float:right;
+
+	
+}
+
+.item a {
+	text-decoration:underline;
+	color:  #161819;	
+}
+
+#post-meta{ 
+
+	margin-right:10px;
+}
+
+
+/* Footer */
+footer {
+	padding-right: 0.4em;
+	background-color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #212529;
+	margin-bottom: 0;
+}
+
+footer * {
+	display: inline;
+}
+
+footer ul {
+	font-family: monospace;
+	display: block;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+footer li {
+	list-style-type: none;
+	margin: 2vw 0;
+	font-size: 3vh;
+}
+
+footer li a {
+	font-family: monospace;
+	padding: 2vw;
+	color: black;
+	text-decoration: none;
+}
+
+footer li:last-child {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+	ul {
+		flex-direction: column;
+	}
+
+	a {
+		display: block;
+	}
+
+	li {
+		margin: 0;
+	}
+
+	button {
+		display: block;
+		padding: 2vw;
+		font-size: 3vh;
+		background-color: #afe0ff;
+		border: none;
+		outline: none;
+		cursor: pointer;
+
+		align-self: flex-start;
+	}
+}
+</style>
